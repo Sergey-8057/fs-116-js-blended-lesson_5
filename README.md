@@ -1,2 +1,2 @@
-# goit-js-hw-04
-home-work-04
+# goit-js-lesson-5
+lesson-05

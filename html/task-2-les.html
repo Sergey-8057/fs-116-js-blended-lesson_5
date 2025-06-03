@@ -8,12 +8,11 @@
   </head>
   <body>
     <p><a href="../index.html">Go back</a></p>
-    <div>
-      <h2 class="taskTitle">ЗАДАЧА 2</h2>
-      <button id="swapButton">SWAP ME</button>
-      <input id="leftSwapInput" type="text" value="???" />
-      <input id="rightSwapInput" type="text" value="!!!" />
-    </div>
+    <form id="task-form">
+      <input type="text" name="taskName" />
+      <button type="submit">Додати</button>
+    </form>
+    <ul id="task-list"></ul>
     <script src="../js/task-2-les.js" defer></script>
   </body>
 </html>
